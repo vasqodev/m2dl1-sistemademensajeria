@@ -1,0 +1,141 @@
+/* Reset inicial */
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  color: #444749;
+  box-sizing: border-box;
+}
+
+/* Creo el contenedor principal*/
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Menú lateral de contactos */
+.contactos {
+  display: flex;
+  flex: 0 0 20%;
+  flex-direction: column;
+  background-color: #fff;
+  border-right: 1px solid #bec1bb;
+}
+
+/* Usuario principal de la plataforma */
+.usuario-principal {
+  display: flex;
+  padding: 1rem 2rem 1rem 2rem;
+  border-bottom: 1px solid #bec1bb;
+  background-color: #fff;
+}
+
+.usuario-barra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.foto-usuario img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.informacion-usuario {
+  margin-left: 1rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.nombre-usuario {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.estado-usuario {
+  font-size: 0.8rem;
+  color: #828485;
+  margin: 0;
+}
+
+.iconos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  color: #bec1bb;
+}
+
+/* Botón para iniciar Nuevo Chat */
+.nuevo-chat {
+  padding: 2rem 4rem;
+  border-bottom: 1px solid #bec1bb;
+  margin: 0;
+}
+
+.btn-nuevo-chat {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #a491d2;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Lista de contactos */
+.lista-contactos {
+  overflow-y: auto;
+  margin: 0;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  margin: 0;
+  border-bottom: 1px solid #bec1bb;
+}
+
+.informacion-contacto {
+  flex: 1;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto p {
+  margin: 0;
+}
+
+.estado-contacto {
+  font-size: 0.8rem;
+  color: #828485;
+}
+
+/* Sección de Contenido Principal */
+.contenido-principal {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  background-color: #e8ebe4;
+}
+
+.logo {
+  max-width: 250px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #444749;
+  margin-bottom: 1rem;
+}
